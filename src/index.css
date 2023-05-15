@@ -1,5 +1,13 @@
+:root{
+  --white:#FFF;
+  --black:#212427;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  /* background-image: url('/src/assets/background.png');
+  background-size: contain; */
 }
