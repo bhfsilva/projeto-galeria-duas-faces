@@ -1,5 +1,5 @@
 :root{
-  --white:#FFF;
+  --white:#FAF9F6;
   --black:#212427;
 }
 *{
@@ -14,4 +14,5 @@ section{
 body{
   /* background-image: url('/src/assets/img/background.png');
   background-size: contain; */
+  background-color: var(--white);
 }

@@ -1,0 +1,79 @@
+.exhibitionBox{
+  padding: 40px 0px;
+  border-bottom: 1px solid;
+}
+.exhibitionInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exhibitionInfo h1{
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 2rem;
+}
+.exhibitionInfo a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--black)
+}
+.instagramLogo{
+  width: 60px;
+  height: fit-content;
+}
+.mainFrame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.mainFrame p{
+  align-self: start;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  color: var(--black);
+  margin: 5px 0px 10px 0px;
+}
+.mainFrame img{
+  width: 900px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 30rem;
+}
+.infos h1{
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 2rem;
+}
+.infos a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: var(--black);
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.instagramLogoMini{
+  width: 33px;
+  height: fit-content;
+}
+.miniFrame{
+  display: flex;
+  flex-direction: column;
+}
+.miniFrame p{
+  display: none;
+}
+.miniFrame img{
+  height: 25rem;
+  width: 30rem;
+  width: fit-content;
+}

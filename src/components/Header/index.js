@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { ReactComponent as Logo } from './logo.svg';
 import './Header.css';
-import { useState } from "react";
 
 export default function Inicio() {
   const routes = [
