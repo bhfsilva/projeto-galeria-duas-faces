@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ExhibitionsPage from './pages/ExhibitionsPage';
 import TemplatePage from './components/TemplatePage';
+import IndexPage from './pages/IndexPage';
+import ExhibitionsPage from './pages/ExhibitionsPage';
 
 export default function AppRouter() {
     return (
@@ -8,7 +9,7 @@ export default function AppRouter() {
             <Router>
                 <Routes>
                     <Route path='/' element={<TemplatePage/>}>
-                        {/* <Route index element={<IndexPage/>}/> */}
+                        <Route index element={<IndexPage/>}/>
                         <Route path='exibicoes' element={<ExhibitionsPage/>}/>
                     </Route>
                     <Route path='*' element={<h1>Página não encontrada</h1>}/>

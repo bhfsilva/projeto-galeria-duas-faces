@@ -4,17 +4,17 @@ import './Header.css';
 
 export default function Inicio() {
   const routes = [
-    {label:"Sobre nós",path:"sobre-nos"},
+    {label:"Sobre nós",path:"/"},
     {label:"Artistas",path:"artistas"},
     {label:"Exibições",path:"exibicoes"}
   ]
 
   return (
     <header>
-      <div className="logoBox">
+      <Link to="/" className="logoBox">
         <Logo className="logo"/>
         <h1>Galeria Duas Faces</h1>
-      </div>
+      </Link>
       <nav className="innerBox">
         {routes.map(route => (
           <Link to={route.path} key={route.label}>

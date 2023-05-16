@@ -1,4 +1,4 @@
-import week from './week.json'
+import week from 'src/assets/json/week.json'
 
 import './ExhibitionsPage.css';
 

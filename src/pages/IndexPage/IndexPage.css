@@ -1,0 +1,24 @@
+.indexContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.indexContent div{
+  margin-bottom: 40px;
+}
+.indexContent p{
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.indexContent h1{
+  letter-spacing: 1.60px;
+  font-size: 1.7rem;
+  border-left: 5px solid;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.indexMap{
+  width: 100%;
+  height: 200px;
+}

@@ -28,4 +28,5 @@ nav{
   letter-spacing: 5px;
   word-spacing: -5px;
   color: var(--black);
+  text-decoration: none;
 }
