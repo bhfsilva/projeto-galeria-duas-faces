@@ -1,4 +1,5 @@
 .container{
-  border: 1px solid red;
   margin: 0 5em;
+  padding: 0 40px; 
+  background-color: var(--white);
 }

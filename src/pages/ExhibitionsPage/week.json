@@ -1,0 +1,45 @@
+{
+  "date":"01 JAN ~ 15 JAN",
+  "exhibitions":[
+    {
+      "artist":"jpegmarcos",
+      "artistPageName":"jpegmarcos",
+      "artistSocial":"https://www.instagram.com/jpegmarcos/",
+      "exhibiName":"feito à mão pelo criador",
+      "frames":[
+        {"frameName":"like water","frameSrc":"assets/frames/jpegmarcos/0.jpg"},
+        {"frameName":"zendaya x bvlgari","frameSrc":"assets/frames/jpegmarcos/1.jpg"},
+        {"frameName":"the world is yours","frameSrc":"assets/frames/jpegmarcos/2.jpg"},
+        {"frameName":"stevie wonder","frameSrc":"assets/frames/jpegmarcos/3.jpg"},
+        {"frameName":"até onde meus olhos podem enxergar","frameSrc":"assets/frames/jpegmarcos/4.jpg"},
+        {"frameName":"djavan","frameSrc":"assets/frames/jpegmarcos/5.jpg"}
+      ]
+    },
+    {
+      "artist":"ian woods",
+      "artistPageName":"ian-woods",
+      "artistSocial":"https://www.instagram.com/ian___woods/",
+      "exhibiName":"remixes done by hand",
+      "frames":[
+        {"frameName":"Source","frameSrc":"assets/frames/ianWoods/0.jpg"},
+        {"frameName":"strange Ways Within","frameSrc":"assets/frames/ianWoods/1.jpg"},
+        {"frameName":"nasty nas","frameSrc":"assets/frames/ianWoods/2.jpg"},
+        {"frameName":"Lauryn","frameSrc":"assets/frames/ianWoods/3.jpg"},
+        {"frameName":"basquiat at the factory","frameSrc":"assets/frames/ianWoods/4.jpg"},
+        {"frameName":"AI","frameSrc":"assets/frames/ianWoods/5.jpg"}
+      ]
+    }
+  ],
+  "previousExhibi":[
+    {
+      "artist":"",
+      "artistSocial":"",
+      "exhibiName":""
+    },
+    {
+      "artist":"",
+      "artistSocial":"",
+      "exhibiName":""
+    }
+  ]
+}
