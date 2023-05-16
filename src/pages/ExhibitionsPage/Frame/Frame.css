@@ -1,6 +1,7 @@
 .exhibitionBox{
   padding: 40px 0px;
   border-bottom: 1px solid;
+  width: 55rem;
 }
 .exhibitionInfo{
   display: flex;
@@ -38,7 +39,8 @@
   margin: 5px 0px 10px 0px;
 }
 .mainFrame img{
-  width: 900px;
+  width: 100%;
+  min-width: 300px;
 }
 .box{
   display: flex;
@@ -68,12 +70,73 @@
 .miniFrame{
   display: flex;
   flex-direction: column;
+  height: 25rem;
+  width: 100%;
 }
 .miniFrame p{
   display: none;
 }
 .miniFrame img{
-  height: 25rem;
-  width: 30rem;
+  height: inherit;
   width: fit-content;
+  object-fit: contain;
+}
+@media(max-width: 1350px){
+  .exhibitionBox{
+    width: fit-content;
+  }
+}
+@media(max-width: 950px){
+  .exhibitionInfo h1{
+    width: 300px;
+  }
+}
+@media(max-width: 720px){
+  .exhibitionInfo a{
+    font-size: 0.8rem;
+  }
+  .instagramLogo{
+    width: 33px;
+  }
+}
+@media(max-width: 650px){
+  .exhibitionInfo h1{
+    width: 200px;
+    font-size: 1.5rem;
+  }
+}
+@media(max-width: 570px){
+  .mainFrame p{
+    display: none;
+  }
+  .exhibitionBox{
+    position: relative;
+    padding-bottom: 60px;
+  }
+  .exhibitionInfo{
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .exhibitionInfo h1{
+    width: initial;
+  }
+  .exhibitionInfo a{
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+  }
+  .miniFrame img{
+    width: 300px;
+    object-fit: cover;
+  }
+  .infos{
+    text-align: center;
+  }
+  .infos h1{
+    font-size: 1.5rem;
+  }
+  .infos a{
+    font-size: 0.8rem;
+    bottom: 15px;
+  }
 }
