@@ -8,7 +8,7 @@ export default function TopButton() {
   window.addEventListener("scroll", () => window.scrollY > 20?setFixed(true):setFixed(false))
 
   return (
-    <button className={`button ${fixed?'active':''}`} onClick={() => window.scrollTo({top: 0})}>
+    <button className={`scrollButton ${fixed?'active':''}`} onClick={() => window.scrollTo({top: 0})}>
       <Arrow className="arrowIcon"/>
     </button>
   )

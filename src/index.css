@@ -10,6 +10,9 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
+section{
+  /* text-align: center; */
+}
 body{
   position: relative;
   background-color: var(--white);

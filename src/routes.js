@@ -12,7 +12,9 @@ export default function AppRouter() {
                     <Route path='/' element={<TemplatePage/>}>
                         <Route index element={<IndexPage/>}/>
                         <Route path='exibicoes' element={<ExhibitionsPage/>}/>
-                        <Route path='artistas' element={<ArtistsPage/>}/>
+                        <Route path='artistas' element={<ArtistsPage/>}>
+                            <Route path=':artista' element={<ArtistsPage/>}/>
+                        </Route>
                     </Route>
                     <Route path='*' element={<h1>Página não encontrada</h1>}/>
                 </Routes>

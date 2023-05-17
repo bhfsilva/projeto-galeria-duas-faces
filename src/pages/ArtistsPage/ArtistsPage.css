@@ -1,0 +1,32 @@
+:root{
+  --gapSize: 50px;
+}
+.artistsListContent{
+  text-align: center;
+}
+.title{
+  font-size: 2.8rem;
+  margin-bottom: var(--gapSize);
+  border-bottom: 3px solid;
+  display: inline-block;
+}
+.artistsBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gapSize);
+}
+.artistsBox button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.artistsBox button:hover{
+  text-decoration: underline;
+}

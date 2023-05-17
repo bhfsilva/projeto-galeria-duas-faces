@@ -11,10 +11,12 @@ export default function TemplatePage() {
 
   switch(pathname){
     case '/artistas':
-      pathname = 'Artistas';
+      if(pathname.includes('/artistas')){
+        pathname = 'Artistas'
+      }
       break
     case '/exibicoes':
-      pathname = 'Exibições';
+      pathname = 'Exibições'
       break
     default:
       pathname = 'Sobre nós'

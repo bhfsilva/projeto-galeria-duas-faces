@@ -1,5 +1,5 @@
 {
-  "date":"01 JAN ~ 15 JAN",
+  "date":"01 FEV ~ 15 FEV",
   "exhibitions":[
     {
       "artist":"jpegmarcos",
@@ -37,12 +37,12 @@
       "artistSocial":"https://www.instagram.com/dtheb_/",
       "exhibiName":"",
       "frames":[
-        {"frameName":"untitled 0","frameSrc":"assets/frames/dtheb/0.jpg"},
+        {"frameName":"","frameSrc":"assets/frames/dtheb/0.jpg"},
         {"frameName":"pursuit","frameSrc":"assets/frames/dtheb/1.jpg"},
         {"frameName":"Turbidity","frameSrc":"assets/frames/dtheb/2.jpg"},
-        {"frameName":"untitled 3","frameSrc":"assets/frames/dtheb/3.jpg"},
-        {"frameName":"untitled 4","frameSrc":"assets/frames/dtheb/4.jpg"},
-        {"frameName":"untitled 5","frameSrc":"assets/frames/dtheb/5.jpg"}
+        {"frameName":"","frameSrc":"assets/frames/dtheb/3.jpg"},
+        {"frameName":"","frameSrc":"assets/frames/dtheb/4.jpg"},
+        {"frameName":"","frameSrc":"assets/frames/dtheb/5.jpg"}
       ]
     },
     {

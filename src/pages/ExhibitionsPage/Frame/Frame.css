@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-transform: uppercase;
 }
 .exhibitionInfo h1{
   letter-spacing: 1px;
@@ -51,6 +52,9 @@
   flex-direction: column;
   position: relative;
   height: 30rem;
+}
+.infos{
+  text-transform: uppercase;
 }
 .infos h1{
   letter-spacing: 2px;
