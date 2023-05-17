@@ -6,13 +6,16 @@
 .indexContent div{
   margin-bottom: 40px;
 }
+.indexContent div:last-child{
+  margin-bottom: 0;
+}
 .indexContent p{
   text-align: justify;
   font-size: 1.2rem;
   line-height: 2rem;
 }
 .indexContent h1{
-  letter-spacing: 1.60px;
+  letter-spacing: 2px;
   font-size: 1.7rem;
   border-left: 5px solid;
   padding-left: 10px;

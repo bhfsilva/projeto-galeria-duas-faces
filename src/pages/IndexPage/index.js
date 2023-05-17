@@ -10,7 +10,7 @@ export default function IndexPage() {
       </div>
       <div>
         <h1>Horários</h1>
-        <p>Nossa galeria está aberta de Segunda a Sexta das 11h às 17h durante as semanas que ocorrerem exibições.</p>
+        <p>Nossa galeria está aberta de Segunda a Sexta das 11h às 19h durante as semanas que ocorrerem exibições.</p>
         <p>Veja também nossas <Link to="exibicoes">exibições virtuais</Link>!</p>
       </div>
       <div>

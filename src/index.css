@@ -1,18 +1,16 @@
 :root{
   --white:#FAF9F6;
   --black:#212427;
+  --gray:#a7a7a7;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-section{
-  background-color: var(--white);
+  font-family: sans-serif;
 }
 body{
-  /* background-image: url('/src/assets/img/background.png');
-  background-size: contain; */
+  position: relative;
   background-color: var(--white);
+  overflow-x: hidden;
 }

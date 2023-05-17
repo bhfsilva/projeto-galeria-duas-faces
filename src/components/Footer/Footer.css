@@ -1,0 +1,93 @@
+footer{
+  margin-top: 40px;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column;
+}
+.infoBox{
+  padding: 25px 0px 75px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 15px;
+  line-height: 30px;
+  width: 100%;
+  border-top: 1px solid;
+}
+.infoBox h3{
+  font-size: 1.5rem;
+}
+.infoBox p{
+  font-size: 1.3rem;
+  margin-bottom: 3px;
+}
+.infoBox a{
+  display: flex;
+  background-color: var(--black);
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 3px;
+}
+.infoBox a:hover{
+  background-color: gray;
+  text-decoration: none;
+}
+.instaLogo{
+  filter: invert();
+  width: 35px;
+  height: fit-content;
+}
+.socialMediaBox{
+  display: flex;
+  gap: 15px
+}
+.formBox{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  width: 25em;
+  line-height: 30px;
+}
+.formBox form{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.formBox input{
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--gray);
+}
+.formBox button{
+  cursor: pointer;
+  border-radius: 10px;
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  background-color: black;
+  transition: 0.3s;
+}
+.formBox button:hover{
+  background-color: var(--gray);
+}
+.copyrightBox{
+  display: flex;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  background-color: var(--gray);
+}
+@media (max-width:835px){
+  .infoBox{
+    flex-direction: column;
+    text-align: center;
+  }
+}
