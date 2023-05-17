@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { ReactComponent as Arrow } from 'src/assets/img/chevron.svg';
+import { ReactComponent as Arrow } from 'src/assets/icons/chevron.svg';
 import './ScrollButton.css';
 
 export default function TopButton() {

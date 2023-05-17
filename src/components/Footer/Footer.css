@@ -73,7 +73,7 @@ footer{
   transition: 0.3s;
 }
 .formBox button:hover{
-  background-color: var(--gray);
+  background-color: gray;
 }
 .copyrightBox{
   display: flex;
