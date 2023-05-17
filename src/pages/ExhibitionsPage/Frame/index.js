@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as InstaLogo } from 'src/assets/img/instagramIcon.svg';
+import { ReactComponent as InstaLogo } from 'src/assets/img/instagram.svg';
 
 import './Frame.css';
 

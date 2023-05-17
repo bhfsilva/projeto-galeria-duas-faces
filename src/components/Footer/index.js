@@ -1,5 +1,5 @@
-import { ReactComponent as InstaLogo } from 'src/assets/img/instagramIcon.svg';
-import { ReactComponent as FaceLogo } from 'src/assets/img/facebookIcon.svg';
+import { ReactComponent as InstaLogo } from 'src/assets/img/instagram.svg';
+import { ReactComponent as FaceLogo } from 'src/assets/img/facebook.svg';
 import { useState } from 'react';
 import './Footer.css';
 
