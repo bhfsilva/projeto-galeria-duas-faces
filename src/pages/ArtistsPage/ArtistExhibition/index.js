@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { ReactComponent as InstaLogo } from 'src/assets/icons/instagram.svg';
 import { ReactComponent as Arrow } from 'src/assets/icons/chevron.svg';
-import { ReactComponent as Close } from './close.svg';
+import { ReactComponent as Close } from 'src/assets/icons/close.svg';
 
 import './ArtistExhibition.css';
 

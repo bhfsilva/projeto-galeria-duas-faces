@@ -22,7 +22,7 @@ header{
   align-items: center;
   gap: 5px;
   font-size: 0.8em;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   word-spacing: 5px;
   text-decoration: none;
 }
@@ -85,7 +85,6 @@ header{
   }
   .menuIcon{
     display: unset;
-    z-index: 1;
   }
   .navBox{
     position: absolute;

@@ -1,0 +1,49 @@
+.maskImage{
+  width: 13rem;
+  height: fit-content;
+  animation: tiltMask ease-in-out 1s infinite alternate;
+}
+.errorMessage{
+  color: #2F4D87;
+  font-size: 2rem;
+  text-align: center;
+}
+.notFoundContent{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0px;
+}
+.notFoundtextBox h1{
+  height: fit-content;
+  width: 20rem;
+  text-align: center;
+}
+.notFoundtextBox{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.backLink{
+  color: var(--white);
+  background-color: var(--black);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.backLink:hover{
+  text-shadow: 0px 0px 10px white;
+}
+@keyframes tiltMask {
+  0%{
+    rotate: -10deg
+  }
+  100%{
+    rotate: 10deg;
+  }
+}

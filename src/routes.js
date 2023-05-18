@@ -3,6 +3,7 @@ import TemplatePage from './components/TemplatePage';
 import IndexPage from './pages/IndexPage';
 import ExhibitionsPage from './pages/ExhibitionsPage';
 import ArtistsPage from './pages/ArtistsPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function AppRouter() {
     return (
@@ -16,7 +17,7 @@ export default function AppRouter() {
                             <Route path=':artista' element={<ArtistsPage/>}/>
                         </Route>
                     </Route>
-                    <Route path='*' element={<h1>Página não encontrada</h1>}/>
+                    <Route path='*' element={<NotFoundPage/>}/>
                 </Routes>
             </Router>
         </main>

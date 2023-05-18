@@ -16,3 +16,6 @@ body{
   background-color: var(--white);
   overflow-x: hidden;
 }
+body:has(.frame.active){
+  overflow-y: hidden;
+}
