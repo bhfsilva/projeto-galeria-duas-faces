@@ -9,7 +9,6 @@
 }
 .artistExhibitionHeader h1{
   margin-right: auto;
-  /* border: 1px solid; */
   padding-right: 20px;
 }
 .artistExhibitionHeader a{
@@ -153,8 +152,8 @@
   }
 }
 @media (max-width: 554px){
-  .artistExhibitionHeader{
-    position: relative;
+  .artistExhibitionHeader h1{
+    margin: 0;
   }
   .artistExhibitionHeader a{
     display: none;

@@ -77,8 +77,8 @@ header{
 @media (max-width: 545px){
   .navBox.showNav{
     overflow: visible;
-    height: 150px;
-    padding: 23px;
+    height: 160px;
+    padding: 20px;
   }
   .logoBox h1{
     display: none;
@@ -98,5 +98,6 @@ header{
     background-color: var(--white);
     border: 1px solid;
     z-index: 1;
+    font-size: 1.3em;
   }
 }
