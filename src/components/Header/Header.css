@@ -47,11 +47,11 @@ header{
   margin-bottom: 20px;
 }
 .menuIcon.closeIcon :nth-child(1){
-  transform: rotate(45deg);
+  rotate: 45deg;
   margin-top: 20px;
 }
 .menuIcon.closeIcon :nth-child(3){
-  transform: rotate(-45deg);
+  rotate: -45deg;
   margin-top: -26px;
 }
 .menuIcon.closeIcon :nth-child(2){
