@@ -85,9 +85,17 @@ footer{
   width: 100%;
   background-color: var(--gray);
 }
-@media (max-width:835px){
+@media (max-width: 835px){
   .infoBox{
     flex-direction: column;
     text-align: center;
+  }
+}
+@media (max-width: 550px){
+  .formBox{
+    width: 15rem;
+  }
+  .formBox form{
+    flex-direction: column;
   }
 }

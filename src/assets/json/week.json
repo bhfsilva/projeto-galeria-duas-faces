@@ -7,12 +7,12 @@
       "artistSocial":"https://www.instagram.com/jpegmarcos/",
       "exhibiName":"feito à mão pelo criador",
       "frames":[
-        {"frameName":"like water","frameSrc":"assets/frames/jpegmarcos/0.jpg"},
-        {"frameName":"zendaya x bvlgari","frameSrc":"assets/frames/jpegmarcos/1.jpg"},
-        {"frameName":"the world is yours","frameSrc":"assets/frames/jpegmarcos/2.jpg"},
-        {"frameName":"stevie wonder","frameSrc":"assets/frames/jpegmarcos/3.jpg"},
-        {"frameName":"até onde meus olhos podem enxergar","frameSrc":"assets/frames/jpegmarcos/4.jpg"},
-        {"frameName":"djavan","frameSrc":"assets/frames/jpegmarcos/5.jpg"}
+        {"frameName":"like water","frameSrc":"/assets/frames/jpegmarcos/0.jpg"},
+        {"frameName":"zendaya x bvlgari","frameSrc":"/assets/frames/jpegmarcos/1.jpg"},
+        {"frameName":"the world is yours","frameSrc":"/assets/frames/jpegmarcos/2.jpg"},
+        {"frameName":"stevie wonder","frameSrc":"/assets/frames/jpegmarcos/3.jpg"},
+        {"frameName":"até onde meus olhos podem enxergar","frameSrc":"/assets/frames/jpegmarcos/4.jpg"},
+        {"frameName":"djavan","frameSrc":"/assets/frames/jpegmarcos/5.jpg"}
       ]
     },
     {
@@ -21,12 +21,12 @@
       "artistSocial":"https://www.instagram.com/ian___woods/",
       "exhibiName":"remixes done by hand",
       "frames":[
-        {"frameName":"Source","frameSrc":"assets/frames/ianWoods/0.jpg"},
-        {"frameName":"strange Ways Within","frameSrc":"assets/frames/ianWoods/1.jpg"},
-        {"frameName":"nasty nas","frameSrc":"assets/frames/ianWoods/2.jpg"},
-        {"frameName":"Lauryn","frameSrc":"assets/frames/ianWoods/3.jpg"},
-        {"frameName":"basquiat at the factory","frameSrc":"assets/frames/ianWoods/4.jpg"},
-        {"frameName":"AI","frameSrc":"assets/frames/ianWoods/5.jpg"}
+        {"frameName":"Source","frameSrc":"/assets/frames/ianWoods/0.jpg"},
+        {"frameName":"strange Ways Within","frameSrc":"/assets/frames/ianWoods/1.jpg"},
+        {"frameName":"nasty nas","frameSrc":"/assets/frames/ianWoods/2.jpg"},
+        {"frameName":"Lauryn","frameSrc":"/assets/frames/ianWoods/3.jpg"},
+        {"frameName":"basquiat at the factory","frameSrc":"/assets/frames/ianWoods/4.jpg"},
+        {"frameName":"AI","frameSrc":"/assets/frames/ianWoods/5.jpg"}
       ]
     }
   ],
@@ -35,14 +35,14 @@
       "artist":"darius the brown",
       "artistPageName":"dtheb",
       "artistSocial":"https://www.instagram.com/dtheb_/",
-      "exhibiName":"",
+      "exhibiName":"untitled",
       "frames":[
-        {"frameName":"","frameSrc":"assets/frames/dtheb/0.jpg"},
-        {"frameName":"pursuit","frameSrc":"assets/frames/dtheb/1.jpg"},
-        {"frameName":"Turbidity","frameSrc":"assets/frames/dtheb/2.jpg"},
-        {"frameName":"","frameSrc":"assets/frames/dtheb/3.jpg"},
-        {"frameName":"","frameSrc":"assets/frames/dtheb/4.jpg"},
-        {"frameName":"","frameSrc":"assets/frames/dtheb/5.jpg"}
+        {"frameName":"untitled 0","frameSrc":"/assets/frames/dtheb/0.jpg"},
+        {"frameName":"pursuit","frameSrc":"/assets/frames/dtheb/1.jpg"},
+        {"frameName":"Turbidity","frameSrc":"/assets/frames/dtheb/2.jpg"},
+        {"frameName":"untitled 3","frameSrc":"/assets/frames/dtheb/3.jpg"},
+        {"frameName":"untitled 4","frameSrc":"/assets/frames/dtheb/4.jpg"},
+        {"frameName":"untitled 5","frameSrc":"/assets/frames/dtheb/5.jpg"}
       ]
     },
     {
@@ -51,12 +51,12 @@
       "artistSocial":"https://www.instagram.com/joiacoll/",
       "exhibiName":"arte urbana",
       "frames":[
-        {"frameName":"seshat","frameSrc":"assets/frames/joiacoll/0.jpg"},
-        {"frameName":"steez","frameSrc":"assets/frames/joiacoll/1.jpg"},
-        {"frameName":"ímpeto","frameSrc":"assets/frames/joiacoll/2.jpg"},
-        {"frameName":"marginália","frameSrc":"assets/frames/joiacoll/3.jpg"},
-        {"frameName":"guidom","frameSrc":"assets/frames/joiacoll/4.jpg"},
-        {"frameName":"L'Abstrait","frameSrc":"assets/frames/joiacoll/5.jpg"}
+        {"frameName":"seshat","frameSrc":"/assets/frames/joiacoll/0.jpg"},
+        {"frameName":"steez","frameSrc":"/assets/frames/joiacoll/1.jpg"},
+        {"frameName":"ímpeto","frameSrc":"/assets/frames/joiacoll/2.jpg"},
+        {"frameName":"marginália","frameSrc":"/assets/frames/joiacoll/3.jpg"},
+        {"frameName":"guidom","frameSrc":"/assets/frames/joiacoll/4.jpg"},
+        {"frameName":"L'Abstrait","frameSrc":"/assets/frames/joiacoll/5.jpg"}
       ]
     }
   ]

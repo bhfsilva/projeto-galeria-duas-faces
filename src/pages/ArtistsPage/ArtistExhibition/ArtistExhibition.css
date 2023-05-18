@@ -1,0 +1,167 @@
+.artistExhibitionHeader{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+.artistExhibitionHeader h1{
+  margin-right: auto;
+  /* border: 1px solid; */
+  padding-right: 20px;
+}
+.artistExhibitionHeader a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.artistExhibitionHeader button:hover::before{
+  position: absolute;
+  top: -25px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: var(--gray);
+  content: 'Voltar';
+}
+.icon{
+  height: fit-content;
+  width: 30px;
+}
+.artistExhibitionHeader button{
+  position: relative;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+  border: none;   
+  cursor: pointer;
+}
+.buttonIcon{
+  transform: rotate(-90deg) scale(0.8, 1);
+}
+.artistExhibitionHeader h1{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.framesBox{
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
+}
+.frame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame img{
+  width: 19em;
+  height: 19em;
+  object-fit: cover;
+}
+.frame.active{  
+  inset: 0;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame.active img{
+  transition: 0.3s;
+  height: 95vh;
+  width: 90vw;
+  object-fit: contain;
+}
+.frame.active p{
+  display: none;
+}
+.frame:hover:has(p){
+  cursor: pointer;
+}
+.frame p{
+  transition: 0.3s;
+  text-transform: capitalize;
+  margin-top: 2px;
+  font-size: 1.4rem;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid;
+}
+.navButtonsBox{
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  z-index: 2;
+  width: 100%;
+}
+.navButtonsBox button{
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 30px;
+  padding: 8px 7px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.navButtonsBox button:hover{
+  transform: scale(1.1);
+}
+.leftButtonIcon{
+  transform: rotate(-90deg);
+  margin-right: 3px;
+}
+.rightButtonIcon{
+  transform: rotate(90deg);
+  margin-left: 3px;
+}
+.closeButton{
+  position: fixed;
+  z-index: 3;
+  font-size: 3em;
+  top: 20px;
+  right: 35px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 40px;
+  padding: 0px 15px 5px 15px;
+}
+@media (max-width: 625px){
+  .artistExhibitionHeader h1{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 580px){
+  .artistExhibitionHeader a{
+    font-size: 0.9rem;
+  }
+  .navButtonsBox{
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 554px){
+  .artistExhibitionHeader{
+    position: relative;
+  }
+  .artistExhibitionHeader a{
+    display: none;
+  }
+}
+@media (max-width: 400px){
+  .artistExhibitionHeader h1{
+    font-size: 1rem;
+  }
+}

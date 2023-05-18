@@ -15,10 +15,11 @@
   line-height: 2rem;
 }
 .indexContent h1{
-  letter-spacing: 2px;
+  display: inline-block;
+  letter-spacing: 1px;
   font-size: 1.7rem;
-  border-left: 5px solid;
-  padding-left: 15px;
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
   margin-bottom: 10px;
 }
 .indexMap{
