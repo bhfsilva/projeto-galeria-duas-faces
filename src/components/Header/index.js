@@ -25,7 +25,7 @@ export default function Inicio() {
       </button>
       <nav className={`navBox ${show?'showNav':''}`}>
         {routes.map(route => (
-          <Link to={route.path} key={route.label}>
+          <Link to={route.path} key={route.label} onClick={() => setShow(false)}>
             {route.label}
           </Link> 
         ))}

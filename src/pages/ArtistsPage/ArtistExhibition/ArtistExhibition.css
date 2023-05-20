@@ -27,7 +27,7 @@
 }
 .icon{
   height: fit-content;
-  width: 30px;
+  max-width: 30px;
 }
 .artistExhibitionHeader button{
   position: relative;
@@ -136,7 +136,7 @@
   background-color: rgba(255, 255, 255, 0.6);
   border: none;
   border-radius: 40px;
-  padding: 0px 15px 5px 15px;
+  padding: 0px 15px 4px 15px;
 }
 @media (max-width: 625px){
   .artistExhibitionHeader h1{
