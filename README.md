@@ -18,5 +18,3 @@
 
 * É o meu primeiro projeto utilizando a biblioteca React Router!
 * Caso encontre <strong>bugs</strong> ou tenha <strong>sugestões</strong>, abra uma issue ou entre em contato.
-
-## 🔗 Acesse em: <a href="https://galeriaduasfaces.vercel.app/">Galeria Duas Faces</a>
